@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the HumanitarianResponse Iframe feature.
+ */
+
+include_once('hr_iframe.features.inc');

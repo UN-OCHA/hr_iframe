@@ -1,0 +1,17 @@
+name = HumanitarianResponse Iframe
+description = Iframe feature for Humanitarianresponse
+core = 7.x
+package = Humanitarianresponse
+php = 5.2.4
+dependencies[] = context
+dependencies[] = context_get
+dependencies[] = ctools
+dependencies[] = features
+dependencies[] = humanitarianresponse_core
+features[context][] = iframe
+features[context][] = unbranded_iframe
+features[ctools][] = context:context:3
+features[features_api][] = api:1
+l10n path = http://localize.humanitarianresponse.info/sites/localize.humanitarianresponse.info/files/l10n_packager/%core/%project/%project-%release.%language.po
+l10n server = localize.humanitarianresponse.info
+l10n url = http://localize.humanitarianresponse.info/sites/localize.humanitarianresponse.info/files/l10n_packager/l10n_server.xml
